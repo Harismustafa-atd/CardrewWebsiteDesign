@@ -1,0 +1,654 @@
+*
+{
+  padding:0px;
+  margin:0px;
+}
+.first
+{
+  background-color:#222222;
+  height:auto;
+  padding:10px;
+}
+.first span
+{
+  padding-top: 5px;
+}
+
+.banner
+{
+
+      background: transparent url("images/Home/banner.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  
+}
+
+.bannerabout
+{
+
+      background: transparent url("images/about/about_banner.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  
+}
+.bannerportfolio
+{
+
+      background: transparent url("images/portfolio/feature_project_video.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  
+}
+.bannerblog
+{
+
+      background: transparent url("images/about/about_banner.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  
+}
+
+
+.navigation
+{
+  background:white;
+}
+.navbar-default
+{
+  background:none;
+  border:none;
+}
+
+.nav.navbar-nav.navbar-right li a
+{
+   color: black;
+
+   margin-top:15px;
+   font-size:20px;
+
+}
+
+
+
+.nav.navbar-nav.navbar-right li a:hover
+{
+   color: orange;
+
+   margin-top:15px;
+   font-size:20px;
+   border-bottom: 2px solid orange;
+}
+
+.nav.navbar-nav.navbar-right li.active { 
+  color: orange;
+
+   margin-top:15px;
+   font-size:20px;
+   border-bottom: 2px solid orange; 
+}
+.nav.navbar-nav.navbar-right li.active a
+{
+   color: orange;
+
+   margin-top:15px;
+   font-size:20px;
+   border-bottom: 2px solid orange;
+}
+
+
+.nav.navbar-nav.navbar-right.aboutnav li a
+{
+   color: black;
+   
+   margin-top:15px;
+   font-size:20px;
+}
+
+
+
+#logo
+{
+   max-width:200px; 
+   margin-top: -7px;
+   margin-left: -20px;
+}
+
+
+
+.a
+{
+  margin-top: 35px;
+  text-align: center;
+}
+.aservice
+{
+  margin-top: 60px;
+  text-align: center;
+}
+.aservice h2
+{
+  color: orange;
+
+}
+
+.bservice
+{
+  margin-top: 40px;
+  border-bottom: 1px dashed gray;
+  padding-top: 5px;
+}
+.cservices
+{
+ padding-top: 30px; 
+
+}
+
+.cservices h2
+{
+  color: orange;
+}
+
+.fservice
+{
+  border-bottom: 1px dashed gray;
+  padding-bottom: 30px;
+}
+.a p
+{
+  color: black;
+}
+
+.a button {
+     padding:5px;
+    align: center;
+    background: none;
+    color: black;
+    border-radius: 24px;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.a button:hover
+{
+     color: orange;
+    border-radius: 24px;
+    border-color: orange;
+    
+  
+}
+.b
+{
+  background-color: #3c3c3c;
+  height: auto;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+}
+
+.dservice
+{
+  background-color: #3c3c3c;
+  height: auto;
+  text-align: left;
+  color: white;
+  max-width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.dservice h2
+{
+  color: orange;
+}
+.bservice h2
+{
+   color: orange;
+}
+
+.cservice
+{
+  margin-top: 40px;
+}
+
+.bportfolio
+{
+  background-color: #3c3c3c;
+  height: auto;
+  text-align: left;
+  color: white;
+  max-width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+}
+.aabout p
+{
+  color: black;
+}
+.cportfolio
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.bbportfolio
+{
+  text-align: center;
+}
+
+
+.a1:hover .overlay
+ {
+  width: 100%;
+  left: 0;
+}
+.a1
+{
+  margin-bottom: 40px;
+}
+
+.text 
+{
+  white-space: nowrap; 
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  overflow: hidden;
+  top: 48%;
+  left: 48%;
+  transform: translate(-48%, -48%);
+  -ms-transform: translate(-48%, -48%);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  right: 0;
+  background-color: #ff6f00;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.image
+ {
+  
+  width: 90%;
+  height: auto;
+}
+.d
+{
+  text-align: center;
+  margin-bottom: 150px;
+   border-top: 1px solid gray;
+}
+
+
+.dportfolio
+{
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 150px;
+  border-top: 1px solid gray;
+}
+
+
+.arrow_box 
+{
+  position: relative;
+  background: #fff;
+  border: 2px solid #c5c5c5;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.arrow_box:after
+{
+    background-image: url(images/border.png);
+    background-size: 68px 57px;
+    content: "";
+    position: absolute;
+    z-index: 9999;
+    display: inline-block;
+    width: 129px;
+    height: 99px;
+    background-position: right 0 bottom 0;
+    right: 59px;
+    bottom: -47px;
+    background-repeat: no-repeat;
+}
+.e
+{
+  height: auto;
+  background-color: #ff6f00;
+}
+.f
+{
+  background-color: #292929;
+
+}
+.f ul
+{
+  list-style: none;
+
+}
+.f ul li
+{
+  float: left;
+  margin-right: 50px;
+  color: #f7f7f7;
+  padding:10px;
+}
+
+#icons
+{
+  color: #545454;
+  margin-right:10px;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+
+#icons1
+{
+  color: #545454;
+  margin-right:10px;
+  font-size: 25px;
+  margin-top: 5px;
+}
+#icons1:hover
+{
+  color: orange;
+
+
+}
+
+#icons:hover
+{
+  color: #ffffff;
+
+
+}
+.aabout
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ccccontact
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: black;
+}
+.ablog
+{
+  border: 2px solid #999da3;
+
+}
+.bblog
+{
+    margin-top: 80px;
+}
+
+.bblog h2
+{
+   color: orange;
+}
+.bblog p , h3
+{
+  color: black;
+}
+.bblog button 
+{
+   color:orange;
+   border-radius: 100px;
+   border-color: orange;
+   padding:10px;
+   background-color: transparent;
+
+} 
+.bblog #buttons
+{
+  list-style: none;
+}
+
+.borderabout
+{
+  border-right: dashed;
+  border-color: gray;
+  margin-bottom: 60px;
+}
+
+.contentabout
+{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.imagesabout img
+{
+  margin: 20px;
+
+}
+
+
+.contentabout1
+{
+  
+  margin-bottom: 60px;
+}
+
+input[type=text]
+ {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+form button
+{
+  color:orange;
+  border-color: orange;
+  text-align: center;
+  padding : 10px 30px 10px 30px;
+  background-color: transparent;
+  vertical-align: center;
+  margin-top:20px;
+  margin-left: 45%;
+  border-radius: 100px;
+  font-size: 15px;
+  background-color: transparent;
+}
+.cccontact
+{
+  margin-top:40px;
+}
+.e button
+{
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 15px 10px 15px;
+}
+
+.e h2 , p , h3
+{
+  color: white;
+}
+
+.overlay img
+{
+  margin-top: 20px;
+}
+
+.pservices p
+{
+   color: black;
+}
+
+.e img
+{
+  margin-top: 67px;
+}
+.cservice p
+{
+  margin-top: 20px;
+}
+
+.cservice h2
+{
+  margin: 10px 0 0 70px; 
+}
+#btnsingleblog
+{
+  
+
+  margin-left: 0px;
+}
+
+
+ .jssorb03 {
+            position: absolute;
+        }
+        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 21px;
+            height: 21px;
+            text-align: center;
+            line-height: 21px;
+            color: white;
+            font-size: 12px;
+            background: url('images/b03.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+       
+
+        /* jssor slider arrow navigator skin 03 css */
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        .jssora03l.jssora03ldn      (disabled)
+        .jssora03r.jssora03rdn      (disabled)
+        */
+        .jssora03l, .jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('images/a03.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora03l { background-position: -3px -33px; }
+        .jssora03r { background-position: -63px -33px; }
+        .jssora03l:hover { background-position: -123px -33px; }
+        .jssora03r:hover { background-position: -183px -33px; }
+        .jssora03l.jssora03ldn { background-position: -243px -33px; }
+        .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        .jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px)
+{
+  #hide
+  {
+    visibility: hidden !important;
+    display: none;
+    clear: both;
+  }
+
+}
+
+
+
+
+@media(max-width:768px)
+{
+  #logo
+  {
+     max-width:100px; 
+       margin-top: -7px;
+  }
+  #hide
+  {
+    visibility: hidden !important;
+    display: none;
+    clear: both;
+  }
+
+  }
+
+
+
+@media(max-width: 500px)
+{
+  .a1:hover .overlay
+ {
+  width: 100%;
+  left: 0;
+}
+.a1
+{
+  margin-bottom: 40px;
+}
+
+.text 
+{
+  
+  font-size:12px;
+  
+}
+}
+
+
+@media(max-width: 320px)
+{
+  .a1:hover .overlay
+ {
+  width: 100%;
+  left: 0;
+}
+
+
+.text 
+{
+  
+  font-size:8px;
+  margin-bottom: 10px;
+  
+}
+}
